@@ -3,6 +3,7 @@ package java_enum;
 public class Test {
 
 	public static void main(String[] args) {
+
 		Version versions[] = new Version[12];
 		versions[0] = new OtherInfo(Platform.JDK, 1.0, "Oak", 1996,
 				"JDK 1.2.0 is the first stable version called Java 1");
@@ -23,5 +24,4 @@ public class Test {
 			System.out.print(v.toString());
 		}
 	}
-
 }
