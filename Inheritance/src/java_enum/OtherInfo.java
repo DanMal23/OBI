@@ -19,6 +19,6 @@ public class OtherInfo extends Version {
 	}
 
 	public String toString() {
-		return super.toString() + ", released in " + year + ", \n\t addition or improvement: " + features + "\n";
+		return super.toString() + ", released in " + year + "," + " \n\t addition or improvement: " + features + "\n";
 	}
 }
