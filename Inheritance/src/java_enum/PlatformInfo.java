@@ -1,10 +1,10 @@
 package java_enum;
 
-public class OtherInfo extends Version {
+public class PlatformInfo extends Version {
 	private int year;
 	private String features;
 
-	public OtherInfo(Platform pm, double ver, String code, int y, String fs) {
+	public PlatformInfo(Platform pm, double ver, String code, int y, String fs) {
 		super(pm, ver, code);
 		year = y;
 		features = fs;
